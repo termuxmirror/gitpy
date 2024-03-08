@@ -1,9 +1,6 @@
 import os
 import subprocess
-import push
-import write
-import user
-import create
+from gitpy import push, write, user, create
 
 def main_menu():
     print("Welcome to the main menu:")
